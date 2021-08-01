@@ -1,0 +1,115 @@
+a{
+  color:navy;
+}
+
+/* Set the style to carasouel */
+.carasouel{
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* Set the style to footer */
+.footer{
+  position: absolute;
+  display: block;
+  background-color:whitesmoke;
+  color:navy;
+  height:150px;
+  width:100%;
+  margin-top:750px;
+ }
+
+ /* Set the style to input type email and password */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 9px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:navy;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+ 
+/* Set the style for all button, when it is hover */
+button:hover {
+  opacity: 0.8;
+}
+  
+  /* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 10px;
+  background-color: #f44336;
+}
+  
+  /* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+  
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+  
+.container {
+  padding: 10px;
+}
+  
+span.psw {
+  float: right;
+  padding-top: 10px; 
+  margin-left:35%;
+}
+  
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1040; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  opacity: 1;
+}
+  
+  /* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+  /* Set the style to close button when hovered */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}

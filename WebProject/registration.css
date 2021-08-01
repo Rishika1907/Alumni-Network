@@ -1,0 +1,80 @@
+﻿/* Set the backge=round image to the entire body */
+body{
+    background-image: url('image/regbackgrund.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.alig{
+    margin-left:10%;
+}
+
+/* Set the style to the body */
+.bg{
+    width:1000px;
+    height:625px;
+    margin-top:3%;
+    margin-left:15%;
+    background-color:rgb(255, 254, 253,0.6);
+}
+
+/* Set the style to the Regiter button */
+.styles {
+    margin-left:15%;
+    background-color:cornsilk;
+    border-color:cornsilk;
+    height: 40px;
+}
+
+.styles:hover{
+         background-color:blue;
+         border-color:blue;
+}
+
+.space1{
+    margin-left:18px;
+}
+
+.mleft{
+    margin-left:35px;
+}
+
+/* set the style to the cancel button */
+.cnl{
+    margin-left:-13%;
+    background-color:cornsilk;
+    border-color:cornsilk;
+    height:40px;
+    width:100px;
+}
+
+.cnl:hover{
+    background-color:red;
+    border-color:red;
+}
+
+h5{
+   margin-top: 10px;
+   color:rgb(46, 20, 88);
+}
+
+label {
+    margin-right: 50px;
+    font-weight:bold;
+    color:rgb(1, 0, 3);
+}
+
+div{
+    margin-top:4%;
+    margin-left:5%;
+}
+
+.space{
+    margin-left:65px;
+
+}
+
+.space2{
+    margin-left:-28px;
+}

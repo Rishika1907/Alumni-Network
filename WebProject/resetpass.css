@@ -1,0 +1,108 @@
+/* Set the background image of the body */
+body{
+  background-image:url('image/IMG_20201003_171644.JPG') ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Set the style to the main div element */
+.bgstyle{
+  width:400px;
+  height:400px;
+  background-color:rgb(255, 254, 253,0.6);
+  margin-left:37%;
+  margin-top:10%;
+}
+
+/* Set the style to the user image */
+.user{
+  width:50px;
+  border-radius:50%;
+  margin-top:5%;
+}
+
+/* Set the style to the email div block */
+.mleft{
+    margin-left:-80%;  /* Set the distance between label and the input feild*/
+    font-weight:bold;
+    margin-top:12%;
+}
+
+/* Set the style for newpassword field in frget.php */
+.newleft{
+  margin-left:-67%;
+  font-weight:bold;
+}
+
+/* Set the style for Confirm password field in frget.php */
+.passleft{
+  margin-left:-60%;
+  font-weight:bold;
+  margin-top: 2%;
+}
+
+/* Set the style to the hint div block*/
+.secretleft{
+  font-weight: bold;
+  margin-left: -87%;
+}
+
+.rtop{
+  padding:10%;
+}
+
+.mtop{
+    margin-top:-3%;
+}
+
+/* Set the style to the next button */
+.send{
+  background-color:green;
+  border-color:green;
+  width:75px;
+  height:35px;
+  margin-top:6%;
+}
+
+/* Set the style to the Back to login button */
+.back{
+    margin-left:-80%;
+    color:navy;
+}
+
+/* Set a style for all buttons */
+.btn {
+  background-color:navy;
+  color: white;
+  padding: 10px 20px;
+  margin: 13px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+} 
+
+/* Set the opacity to all the button on hover */
+button:hover {
+  opacity: 0.8;
+}
+  
+  /* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  border-color: #f44336;
+}
+ 
+/* Add Extra style to container class */
+.container {
+  padding: 16px;
+}
+  
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+  
+  

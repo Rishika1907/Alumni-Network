@@ -1,0 +1,90 @@
+ /* Add the style to the image retrived from the database */
+ .imgl{
+    width: 13%;
+    margin-top: -10%;
+    border-radius: 50%;
+    margin-left:3%;
+  }
+
+  /* Add the style to default image */
+  .avatar {
+   margin-left: 3%;
+    width: 13%;
+    margin-top: -10%;
+    border-radius: 50%;
+
+  }
+/* style for cancel button */
+  .cnl{
+    margin-top: 3%;
+    margin-left: 56%;
+    background-color: red;
+    border-color: red;
+    color: white;
+    width: 104px;
+}
+
+/* Add style to cancel button on hover */
+.cnl:hover{
+    background-color:red;
+    border-color:red;
+    color: black;
+}
+
+/* Add the style to the heading */
+.halign{
+  margin-left: 47%;
+  margin-top: 3%;
+  margin-bottom: 9%;
+  font-size: 140%;;
+}
+
+/* Add the style to the form element */
+.align {
+  margin-left: 47%;
+  line-height: 26pt;
+  margin-top: -19%;
+  width: 45%;
+}
+
+/* Make the style of the text box to line as the input field */
+input[type=text],[type=password],[type=email],[type=number],[type=tel],select.form-control{
+  background: transparent;
+  border:none; 
+  width:90%;
+  box-shadow:none;
+  border-bottom:1px solid #000000;
+}
+
+input[type=text]:focus,[type=password]:focus,[type=email]:focus,[type=number]:focus,[type=tel]:focus,select.form-control:focus{
+  box-shadow:none; /*when the cursor is placed shadow will not appear*/
+}
+
+td:nth-child(1){
+  padding-right: 10%; /*Add space between the td in a tr*/
+}
+
+/* Add the style to the upload button */
+.upload {
+  margin-left:2%;
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  margin-top: 2%;
+  width: 13%; 
+}
+
+  /* Add the style to the Update button */
+.styles {
+  margin-top: 3%;
+  margin-left: 17%;
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+
+.styles:hover{
+  background-color:blue;
+  border-color:blue;
+  color: black;
+}
